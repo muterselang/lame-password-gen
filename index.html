@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="d-flex flex-column">
+            <h1 class="text-xl-center">Password Generator</h1>
+            <div class="d-flex flex-column gap-2 mte-2">
+                <label for="passwordLength" class="text-titlecase fw-bold">Character Length Desire</label> 
+                <input class="form-control form-control-lg" id="passwordLength" type="number"/>
+                <label for="password" class="text=titlecase fw-bold">Password</label>
+                <input class="form-control form-control-lg" id="password" disabled/>
+                <button class="btn btn-dark text-titlecase fw-bold btn-lg mt-2" onclick="getPassword()">Generate</button>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
